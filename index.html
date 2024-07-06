@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Eaglercraft Launcher | Redirect</title>
-  <meta charset="UTF-8">
-  <!--link rel="icon" type="image/png" href="/icon.png"-->
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #1a1a1a;
-      color: #f0f0f0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    #redirect-message {
-      margin-top: 20px;
-    }
-    a {
-      color: #00b8d4;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="refresh" content="0;url=https://reddit.com/r/EaglercraftDev">
+    <title>Redirecting to Eaglercraft.dev Reddit</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #bb86fc;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        a {
+            color: #03dac6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <h1>Eaglercraft Launcher | Redirect</h1>
-  <p>You will be redirected to the Subreddit server invite in 5 seconds.</p>
-  <div id="redirect-message"></div>
-  <script>
-    const redirectUrl = 'https://reddit.com/r/EaglercraftDev';
-    let redirectTime = 5;
-
-    const countdownInterval = setInterval(() => {
-      const redirectMessage = document.getElementById('redirect-message');
-      if (redirectTime > 0) {
-        redirectMessage.textContent = `Redirecting in ${redirectTime} seconds...`;
-        redirectTime--;
-      } else {
-        clearInterval(countdownInterval);
-        window.location.href = redirectUrl;
-      }
-    }, 1000);
-  </script>
-  <br><p style="font-size:12px;">If you are not redirected within the allocated time, <a href="https://reddit.com/EaglercraftDev">click here.</a></p>
+    <div class="container">
+        <h1>Joining Eaglercraft.dev Reddit</h1>
+        <p>You are being redirected to our subreddit...</p>
+        <p>If you are not redirected automatically, please <a href="https://reddit.com/r/EaglercraftDev">click here</a> to join our subreddit.</p>
+    </div>
 </body>
 </html>
