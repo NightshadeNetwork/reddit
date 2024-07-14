@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://reddit.eaglercraft.dev/sitemap.xml
+Sitemap: https://discord.eaglercraft.dev/sitemap.xml
+Sitemap: https://eaglercraft.dev/sitemap.xml
+
+Host: reddit.eaglercraft.dev
+Host: discord.eaglercraft.dev
+Host: eaglercraft.dev
